@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58777
+59659
 Successfully changed project path to: /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project
 /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/nikolai_kozevnikov/Documents/Unfroz
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 133.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,79 +69,79 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56539
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56150
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000656 seconds.
+Registered in 0.000630 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.465 seconds
+- Completed reload, in  1.544 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1466ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1545ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1069ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (170ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (136ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (766ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (819ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (164ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001894 seconds.
+Registered in 0.001837 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.439 seconds
+- Completed reload, in  2.520 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2441ms)
-		BeginReloadAssembly (235ms)
+	ReloadAssembly (2524ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (38ms)
+			DisableScriptedObjects (36ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1916ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1982ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
+			SetupTypeCache (320ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1224ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1229ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (818ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,149 +150,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (198.4 KB). Loaded Objects now: 4366.
-Memory consumption went from 254.4 MB to 254.2 MB.
-Total: 3.626708 ms (FindLiveObjects: 0.263791 ms CreateObjectMapping: 0.110583 ms MarkObjects: 3.063708 ms  DeleteObjects: 0.187000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002478 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.472 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2473ms)
-		BeginReloadAssembly (320ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (71ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1874ms)
-			LoadAssemblies (147ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (1110ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (804ms)
-				ProcessInitializeOnLoadMethodAttributes (134ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Shader 'Spine/Outline/Skeleton': fallback shader 'Spine/Skeleton' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Blend Modes/Skeleton PMA Screen': fallback shader 'Spine/Blend Modes/Skeleton PMA Screen' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Screen' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Screen' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Skeleton Tint Black': fallback shader 'Spine/Special/Skeleton Grayscale' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint Black' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint Black' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/SkeletonGraphic': fallback shader 'Spine/SkeletonGraphic' not found
-WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Special/Skeleton Grayscale': fallback shader 'Spine/Special/Skeleton Grayscale' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Special/Skeleton Grayscale' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Special/Skeleton Grayscale' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/OutlineOnly-ZWrite': fallback shader 'Spine/Skeleton' not found
-Shader 'Spine/Outline/Sprite/Vertex Lit': fallback shader 'Spine/Sprite/Vertex Lit' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Sprite/Vertex Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Sprite/Vertex Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/SkeletonGraphic Tint Black': fallback shader 'Spine/SkeletonGraphic Tint Black' not found
-WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic Tint Black' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic Tint Black' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Skeleton Lit ZWrite': fallback shader 'Spine/Skeleton Lit ZWrite' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Lit ZWrite' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Lit ZWrite' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Skeleton Fill': fallback shader 'Spine/Skeleton Fill' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Fill' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Fill' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Blend Modes/Skeleton PMA Additive': fallback shader 'Spine/Blend Modes/Skeleton PMA Additive' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Additive' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Additive' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Spine/Outline/Skeleton Tint': fallback shader 'Spine/Skeleton Tint' not found
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4168 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (4.4 MB). Loaded Objects now: 4587.
-Memory consumption went from 272.9 MB to 268.5 MB.
-Total: 5.229542 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.108250 ms MarkObjects: 2.772209 ms  DeleteObjects: 2.042625 ms)
+Unloading 4172 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.8 MB). Loaded Objects now: 4611.
+Memory consumption went from 276.7 MB to 274.9 MB.
+Total: 3.947500 ms (FindLiveObjects: 0.294125 ms CreateObjectMapping: 0.116292 ms MarkObjects: 2.729833 ms  DeleteObjects: 0.806167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -306,174 +170,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 259840.639248 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.010318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 731.644848 seconds.
-  path: Assets/Spine Examples
-  artifactKey: Guid(e6712a5a0c05f9f4092f9a3197925e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples using Guid(e6712a5a0c05f9f4092f9a3197925e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac35a05083b0c4d6ab5f7a2acf4107e3') in 0.006312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.170874 seconds.
-  path: Assets/Spine Examples/Getting Started
-  artifactKey: Guid(fb68fe44ae68d834b8be5d854b2b402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Getting Started using Guid(fb68fe44ae68d834b8be5d854b2b402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f59ea93ad81d1cf0741e3f1092bf48b') in 0.002217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.405456 seconds.
-  path: Assets/Spine Examples/Getting Started/1 The Spine GameObject.unity
-  artifactKey: Guid(fff6e9ad77d93024a9a87f6f2c0a6b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Getting Started/1 The Spine GameObject.unity using Guid(fff6e9ad77d93024a9a87f6f2c0a6b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d87d1187534afac663084655329cc62') in 0.002432 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001731 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.591 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2593ms)
-		BeginReloadAssembly (347ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (72ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (102ms)
-		EndReloadAssembly (1993ms)
-			LoadAssemblies (173ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1222ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (876ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (4.5 MB). Loaded Objects now: 4590.
-Memory consumption went from 273.8 MB to 269.3 MB.
-Total: 10.776042 ms (FindLiveObjects: 0.260458 ms CreateObjectMapping: 0.112416 ms MarkObjects: 8.500667 ms  DeleteObjects: 1.901667 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 60.117884 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/Spineunitygirl/Doi.png
-  artifactKey: Guid(33e128e17951b4a42b17608ff79ba5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/Spineunitygirl/Doi.png using Guid(33e128e17951b4a42b17608ff79ba5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd752eb0063e79d0ae25baf43a6b84637') in 0.802960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/Spineunitygirl/Doi_Material.mat
-  artifactKey: Guid(2745674eb28031e499ac70ef825b153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/Spineunitygirl/Doi_Material.mat using Guid(2745674eb28031e499ac70ef825b153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b629636fcb8d919ecda64b30c2b84367') in 0.465202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.897684 seconds.
-  path: Assets/Spine Examples/Getting Started/2 Controlling Animation.unity
-  artifactKey: Guid(5c66a9c1bbf922d4ab082694f19536c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Getting Started/2 Controlling Animation.unity using Guid(5c66a9c1bbf922d4ab082694f19536c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872142798c4ef29b22593facd05283dd') in 0.001783 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001769 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.490 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2491ms)
-		BeginReloadAssembly (262ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1977ms)
-			LoadAssemblies (129ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (903ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (4.4 MB). Loaded Objects now: 4635.
-Memory consumption went from 287.3 MB to 282.8 MB.
-Total: 5.223875 ms (FindLiveObjects: 0.310334 ms CreateObjectMapping: 0.114042 ms MarkObjects: 2.911083 ms  DeleteObjects: 1.886875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 82.314751 seconds.
-  path: Assets/Spine Examples/Scripts/Getting Started Scripts/SpineBeginnerTwo.cs
-  artifactKey: Guid(a57fe3aaf2b1f964182d90c5546754d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Scripts/Getting Started Scripts/SpineBeginnerTwo.cs using Guid(a57fe3aaf2b1f964182d90c5546754d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5372f2143b10b54967360c21941853') in 0.305491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.054681 seconds.
-  path: Assets/Spine Examples/Getting Started/3 Controlling Animation Continued.unity
-  artifactKey: Guid(8059cdefcf15d4d428dfdb3201149e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Getting Started/3 Controlling Animation Continued.unity using Guid(8059cdefcf15d4d428dfdb3201149e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6ddf7d2daa0b729beeb41f1d92e1e8') in 0.001442 seconds 
+  Time since last request: 260943.978138 seconds.
+  path: Assets/Spine Examples/Getting Started/5 Basic Platformer.unity
+  artifactKey: Guid(c0218f9f0a3cc144698dca06a3f59668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Getting Started/5 Basic Platformer.unity using Guid(c0218f9f0a3cc144698dca06a3f59668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f333e0b9a64fdd91fcdbd28b6cb847') in 0.009936 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
@@ -484,43 +184,43 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.593 seconds
+- Completed reload, in  2.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2597ms)
-		BeginReloadAssembly (330ms)
+	ReloadAssembly (2359ms)
+		BeginReloadAssembly (270ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (63ms)
+			DisableScriptedObjects (45ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (108ms)
-		EndReloadAssembly (2007ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1855ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1210ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1155ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (890ms)
-				ProcessInitializeOnLoadMethodAttributes (155ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (833ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4166 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (4.4 MB). Loaded Objects now: 4638.
-Memory consumption went from 291.5 MB to 287.1 MB.
-Total: 5.386250 ms (FindLiveObjects: 0.333958 ms CreateObjectMapping: 0.117166 ms MarkObjects: 2.957000 ms  DeleteObjects: 1.976250 ms)
+Unloading 4140 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 4614.
+Memory consumption went from 273.8 MB to 272.0 MB.
+Total: 3.967375 ms (FindLiveObjects: 0.424208 ms CreateObjectMapping: 0.114750 ms MarkObjects: 2.564500 ms  DeleteObjects: 0.863000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -534,8 +234,333 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.665806 seconds.
-  path: Assets/Spine Examples/Getting Started/4 Object Oriented Sample.unity
-  artifactKey: Guid(47344a855c1c167499dbb9bf28d1368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Getting Started/4 Object Oriented Sample.unity using Guid(47344a855c1c167499dbb9bf28d1368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf13874112c3d99376a355b2771d024f') in 0.009352 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 40.372676 seconds.
+  path: Assets/Spine Examples/Getting Started/6 SkeletonGraphic.unity
+  artifactKey: Guid(fa77f7a2c74add54eb0eb29f88e080dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Getting Started/6 SkeletonGraphic.unity using Guid(fa77f7a2c74add54eb0eb29f88e080dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a85ad5bb8f23cb4f2d211b7fc8887db') in 0.010694 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001902 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2287ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1812ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1121ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (818ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4140 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 4617.
+Memory consumption went from 274.1 MB to 272.3 MB.
+Total: 3.956000 ms (FindLiveObjects: 0.391666 ms CreateObjectMapping: 0.113417 ms MarkObjects: 2.523959 ms  DeleteObjects: 0.925083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.303582 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.011947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.743497 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.002565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 271.755943 seconds.
+  path: Assets/artForTestWork/Miner/Miner.png
+  artifactKey: Guid(5e614bc44f2e34fd59dfe3103ad67e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner.png using Guid(5e614bc44f2e34fd59dfe3103ad67e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a69aa9147d7cad90ec62cc37ded6ca') in 0.329188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/artForTestWork/Miner/Miner_Miner.mat
+  artifactKey: Guid(390f0b4bcf0f94f0bb622f93987bceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner_Miner.mat using Guid(390f0b4bcf0f94f0bb622f93987bceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b84e055adb7f7f645b6f5983c28b065') in 0.286292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/artForTestWork/Miner/Miner3.png
+  artifactKey: Guid(18e833e21a2e149b6baa7e06a0ea3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner3.png using Guid(18e833e21a2e149b6baa7e06a0ea3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88060afe19352ac28930d921e307e57a') in 0.016011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/artForTestWork/Miner/Miner_Miner2.mat
+  artifactKey: Guid(a2920282396a84b3393da06e3337836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner_Miner2.mat using Guid(a2920282396a84b3393da06e3337836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4c9a31cfd1241c8be1b40780993bba') in 0.018134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/artForTestWork/Miner/Miner_Atlas.asset
+  artifactKey: Guid(a6ab113802f5b4f4da006873f73b6525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner_Atlas.asset using Guid(a6ab113802f5b4f4da006873f73b6525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48582934d79fa332a554a9f4c036434e') in 0.196980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.031702 seconds.
+  path: Assets/artForTestWork
+  artifactKey: Guid(1fa3184e6de0b491d9db67dc6f682c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork using Guid(1fa3184e6de0b491d9db67dc6f682c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09419e7e130c08d814d0f0f7f87dbb51') in 0.001837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.854671 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(c0445b25d396c472a8b849304f0b4db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(c0445b25d396c472a8b849304f0b4db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a9c8d4ce33295fff51cd2ce38ac343') in 0.001885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.739148 seconds.
+  path: Assets/Editor/SpineSettings.asset
+  artifactKey: Guid(0db4ccaad07fa4b78a338f6d611cc43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/SpineSettings.asset using Guid(0db4ccaad07fa4b78a338f6d611cc43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb5b4e5eddbbd41d9cb9f6126e69623') in 0.004664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.477403 seconds.
+  path: Assets/Spine
+  artifactKey: Guid(30918bcaadaaecc42bc215ff52f75b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine using Guid(30918bcaadaaecc42bc215ff52f75b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acd37466e56e17ae247fdb59bf6ffeb') in 0.001697 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001676 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2435ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1861ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1101ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 198 unused Assets / (174.9 KB). Loaded Objects now: 4491.
+Memory consumption went from 279.5 MB to 279.3 MB.
+Total: 3.295875 ms (FindLiveObjects: 0.384458 ms CreateObjectMapping: 0.121208 ms MarkObjects: 2.614042 ms  DeleteObjects: 0.175000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001921 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/nikolai_kozevnikov/Documents/Unfrozen/Unity-turn-based-test-project/Turn-based test project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Shader error in 'Spine/Sprite/Vertex Lit': Couldn't open include file 'CGIncludes/SpriteShadows.cginc'. at line 128
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with SHADOWS_DEPTH
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: PIXELSNAP_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'Spine/Sprite/Vertex Lit': Couldn't open include file 'CGIncludes/SpriteShadows.cginc'. at line 128
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with SHADOWS_DEPTH
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: PIXELSNAP_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Mono: successfully reloaded assembly
+- Completed reload, in  2.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2896ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (56ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (1259ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (174.6 KB). Loaded Objects now: 4645.
+Memory consumption went from 288.5 MB to 288.3 MB.
+Total: 3.199292 ms (FindLiveObjects: 0.246667 ms CreateObjectMapping: 0.107208 ms MarkObjects: 2.687167 ms  DeleteObjects: 0.157375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248.079997 seconds.
+  path: Assets/artForTestWork/Mine2
+  artifactKey: Guid(7dd2d16df125d49a9a1695adce64f989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Mine2 using Guid(7dd2d16df125d49a9a1695adce64f989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620cfe38a533b718954fcd7877ab7232') in 0.051263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/artForTestWork/Mine2/floor_mine.png
+  artifactKey: Guid(3653ed17a192b4b449cf8067fe9f66f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Mine2/floor_mine.png using Guid(3653ed17a192b4b449cf8067fe9f66f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c48b2f6acc54f4115c9ff21e38755a3') in 0.234332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/artForTestWork/Mine2/backplane1_mine.png
+  artifactKey: Guid(a41d62ccfc1d841dd9b3fd962153b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Mine2/backplane1_mine.png using Guid(a41d62ccfc1d841dd9b3fd962153b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279958ca6d219f3e9c84805a9acbea87') in 0.161000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.993324 seconds.
+  path: Assets/artForTestWork/Miner
+  artifactKey: Guid(e003b97ae991a4cfaa0efc465efa191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner using Guid(e003b97ae991a4cfaa0efc465efa191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedf9225174dfeb510d1788561a6827e') in 0.001188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054378 seconds.
+  path: Assets/artForTestWork/Miner/Miner.png
+  artifactKey: Guid(5e614bc44f2e34fd59dfe3103ad67e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner.png using Guid(5e614bc44f2e34fd59dfe3103ad67e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831f1b70e9e4aa053156f3545cbc7bad') in 0.014358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/artForTestWork/Miner/Miner_Miner.mat
+  artifactKey: Guid(390f0b4bcf0f94f0bb622f93987bceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner_Miner.mat using Guid(390f0b4bcf0f94f0bb622f93987bceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Spine/Skeleton': Couldn't open include file 'CGIncludes/Spine-Common.cginc'. at line 41
+
+Compiling Subshader: 0, Pass: Normal, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _STRAIGHT_ALPHA_INPUT
+Shader error in 'Spine/Skeleton': Couldn't open include file 'CGIncludes/Spine-Common.cginc'. at line 41
+
+Compiling Subshader: 0, Pass: Normal, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _STRAIGHT_ALPHA_INPUT
+ -> (artifact id: 'b6f88db887058b58d4cea845e943a5b8') in 0.139276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/artForTestWork/Miner/Miner3.png
+  artifactKey: Guid(18e833e21a2e149b6baa7e06a0ea3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner3.png using Guid(18e833e21a2e149b6baa7e06a0ea3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d730babb80d3fe2bde226ef87afc03') in 0.011024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/artForTestWork/Miner/Miner_SkeletonData.asset
+  artifactKey: Guid(a8fad3097529640f1940645a3de5aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner_SkeletonData.asset using Guid(a8fad3097529640f1940645a3de5aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1463f3f003b73efad16bc2d4b5a802a') in 0.002895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.887799 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader
+  artifactKey: Guid(deee23ab4aa38564ead2ac05e112c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader using Guid(deee23ab4aa38564ead2ac05e112c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f7f572ec934ca9667b8a384139b7c') in 0.219488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.848582 seconds.
+  path: Assets/artForTestWork/Miner/Miner.json
+  artifactKey: Guid(d8e23c725e8a540c4afcfd17c42eca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner.json using Guid(d8e23c725e8a540c4afcfd17c42eca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfb5940a0de95f46c864474d59e5f57') in 0.191081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.872413 seconds.
+  path: Assets/artForTestWork/Miner/Miner.atlas.txt
+  artifactKey: Guid(ea00f89b98ed644f7beca3a19391269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/artForTestWork/Miner/Miner.atlas.txt using Guid(ea00f89b98ed644f7beca3a19391269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a270bfb1522b3b3f2c7907660869cba') in 0.993274 seconds 
