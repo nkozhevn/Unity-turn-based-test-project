@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Spine.Unity;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -46,9 +45,9 @@ namespace TurnBased
 
         public void Damage(int amount)
         {
-            Health -= amount;
             var coroutine = Highlight();
             StartCoroutine(coroutine);
+            Health -= amount;
         }
 
         private IEnumerator Highlight()

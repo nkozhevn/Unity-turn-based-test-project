@@ -88,6 +88,7 @@ namespace TurnBased
                         if (enemy != null)
                         {
                             highlight.SetActive(false);
+                            enemy.Damage(power);
                             _renderer.sortingOrder = 5;
                             _panel.SetActive(true);
                             transform.localScale *= 1.5f;
@@ -99,7 +100,6 @@ namespace TurnBased
                             transform.localScale /= 1.5f;
                             _panel.SetActive(false);
                             _renderer.sortingOrder = 0;
-                            enemy.Damage(power);
                             yield return new WaitForSeconds(0.1f);
                             TurnEnded();
                             break;

@@ -57,6 +57,7 @@ namespace TurnBased
             yield return new WaitForSeconds(0.5f);
             
             highlight.SetActive(false);
+            GameManager.Instance.GetRandomPlayableCharacter().Damage(power);
             _renderer.sortingOrder = 5;
             _panel.SetActive(true);
             transform.localScale *= 1.5f;
@@ -68,7 +69,6 @@ namespace TurnBased
             transform.localScale /= 1.5f;
             _panel.SetActive(false);
             _renderer.sortingOrder = 0;
-            GameManager.Instance.GetRandomPlayableCharacter().Damage(power);
             yield return new WaitForSeconds(0.1f);
             TurnEnded();
         }
